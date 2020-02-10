@@ -1,3 +1,11 @@
+<?php
+
+require_once("../database.php");
+require_once("../classes.php");
+
+$hotel = connectDatabase();
+
+?>
 <!DOCTYPE html>
 <html lang="ja">
 
